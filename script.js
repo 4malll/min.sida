@@ -13,3 +13,18 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
 });
+
+const readMoreBtn = document.getElementById('readMoreBtn');
+const moreText = document.getElementById('moreText');
+
+if(readMoreBtn && moreText) {
+   readMoreBtn.addEventListener('click', () => {
+      moreText.classList.toggle('hidden');
+
+      if (moreText.classList.contains('hidden')) {
+         readMoreBtn.textContent = 'Läs mer';
+      } else {
+         readMoreBtn.textContent = 'Visa mindre';
+      }
+   });
+}

@@ -17,6 +17,7 @@ Hemsidan består av tre huvudsakliga sektioner:
 *Interaktioner:*
 Mina sida innehåller flera interaktiva knappar som gör olika saker.
 *Mörk Tema:* Det är en knapp som gör att sidan får en mörkare färg. 
+*Läs mer / Visa mindre:* En knapp i "Lära känna mig"-sektionen som visar och döljer presentationstexten med hjälp av Javascript.
 Jag har även använt mig av *Smooth Scrolling* så när användaren klickar på knapparna i huvudmenyn (Om mig, färdigheter och sociala medier) skrollar sidan mjukt ner till den motsvarade sektionen. 
 
 Jag har lagt knappar som tar dig till både min LinkedIn och GitHub med en enkel klick och även lagt två knappar som tar dig till två av mina projekter som är inte då länkar men PDF filer. 
